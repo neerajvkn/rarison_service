@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rarison_service *.css
+recursive-include rarison_service *.csv
+recursive-include rarison_service *.html
+recursive-include rarison_service *.ico
+recursive-include rarison_service *.js
+recursive-include rarison_service *.json
+recursive-include rarison_service *.md
+recursive-include rarison_service *.png
+recursive-include rarison_service *.py
+recursive-include rarison_service *.svg
+recursive-include rarison_service *.txt
+recursive-exclude rarison_service *.pyc
