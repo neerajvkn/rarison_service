@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-01-07 17:45:11.634878",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "part_no",
+  "description",
+  "qty",
+  "rate",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "part_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Part No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description",
+   "read_only": 1
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Rate",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Total",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-01-07 18:54:24.650627",
+ "modified_by": "Administrator",
+ "module": "Rarison Service",
+ "name": "Spare Items table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
