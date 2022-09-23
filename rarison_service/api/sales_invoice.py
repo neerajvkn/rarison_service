@@ -6,8 +6,9 @@ import json
 def fetch_spare_invoice(sinv):
     server_url = frappe.db.get_single_value('Rarison Service Settings', 'sales_server_link')
     token = frappe.db.get_single_value('Rarison Service Settings', 'sales_server_access_token')
+    https = frappe.db.get_single_value('Rarison Service Settings', 'https_or_http')
 
-    url = 'http://'+server_url+'/api/method/rarison_motors.api.sales_invoice.sales_inv_api'
+    url = https + '://'+server_url+'/api/method/rarison_motors.api.sales_invoice.sales_inv_api'
 
     headers = {
         "Authorization": token

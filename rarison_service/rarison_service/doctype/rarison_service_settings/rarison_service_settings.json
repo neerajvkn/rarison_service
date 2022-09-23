@@ -8,7 +8,9 @@
  "field_order": [
   "sales_server_link",
   "column_break_2",
-  "sales_server_access_token"
+  "sales_server_access_token",
+  "section_break_4",
+  "https_or_http"
  ],
  "fields": [
   {
@@ -24,12 +26,21 @@
    "fieldname": "sales_server_access_token",
    "fieldtype": "Data",
    "label": "Sales Server Access Token"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "https_or_http",
+   "fieldtype": "Data",
+   "label": "Https or Http"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2022-01-07 16:14:57.850903",
+ "modified": "2022-09-22 23:40:08.167840",
  "modified_by": "Administrator",
  "module": "Rarison Service",
  "name": "Rarison Service Settings",
@@ -47,5 +58,6 @@
   }
  ],
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }
